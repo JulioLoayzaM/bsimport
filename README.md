@@ -44,13 +44,13 @@ I used [Typer](https://typer.tiangolo.com/) to create the CLI, and implemented m
 
 - Run the `init` command:
   ```bash
-  bsimport init
+  python -m bsimport init
   ```
   It will ask you for the token ID and secret, as well as the URL to your Bookstack.
 
 - Then import your files with:
   ```bash
-  bsimport import /path/to/file
+  python -m bsimport import /path/to/file
   ```
 
 ## To modify the code
