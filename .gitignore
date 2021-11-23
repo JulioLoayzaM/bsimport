@@ -1,8 +1,13 @@
-# dev files
+# virtual envs
 .venv/
 win-venv/
+# vscode files
 .vscode/
+# python files
 __pycache__/
 *.pyc
+# packaging
+dist/
+bsimport.egg-info/
 # secrets
 .env
