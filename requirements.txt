@@ -1,2 +1,2 @@
-requests==2.26.0
-typer==0.4.0
+requests
+typer

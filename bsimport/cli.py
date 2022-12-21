@@ -485,4 +485,8 @@ def main(
     """
     Import Markdown files to your Bookstack instance using the API.
     """
+    notice = """Important notice:
+    This tool is not maintained, so it may not work or behave in unexpected ways.
+    Use at your own risk."""
+    typer.secho(notice, fg=typer.colors.YELLOW)
     return
